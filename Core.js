@@ -6815,20 +6815,6 @@ _Click the button below to download_`
   ⌯    *My prefix is :*  ${prefix}
   ⌯    *Owner name :* ${global.OwnerName} 
 
-  〢━━━ 〄 Core 〄 ━━━〢
-
-
-  ⌯     ${prefix}repo
-  ⌯     ${prefix}script
-  ⌯     ${prefix}speak
-  ⌯     ${prefix}support
-  ⌯     ${prefix}stalk
-  ⌯     ${prefix}setprefix
-  ⌯     ${prefix}auto-status
-  ⌯     ${prefix}auto-typing
-  ⌯     ${prefix}auto-recoding
-
-
   〢━━━ ⌬ Owner Only ⌬ ━━━〢
 
 
