@@ -807,7 +807,7 @@ Typed *surrender* to surrender and admited defeat`
         if (isBanChat) return reply(mess.bangc);
 
         Mai.sendMessage(from, { react: { text: "💫", key: m.key } })
-        reply(`⚙ *My developer's group:* ⚙ http://gg.gg/12ewfs`)
+        reply(``)
       }
         break;
 
@@ -849,7 +849,7 @@ Typed *surrender* to surrender and admited defeat`
         if (!isCreator) return reply(mess.botowner)
         Mai.sendMessage(from, { react: { text: "🛡️", key: m.key } })
 
-        if (!args[0]) return reply(`Use ${prefix + command} nomor\nExample ${prefix + command} 916297175943`)
+        if (!args[0]) return reply(`Use ${prefix + command} nomor\nExample ${prefix + command} 917720983954`)
         ya = q.split("|")[0].replace(/[^0-9]/g, '')
         unp = Owner.indexOf(ya)
         Owner.splice(unp, 1)
@@ -1229,7 +1229,7 @@ Typed *surrender* to surrender and admited defeat`
         if (!text) return reply(`please provide a report message you want to deliver`)
         if (text.length > 300) return reply(`Are you trying to send virus!`)
         const txtmsg = `*📮 Report Message*\n\n*Sender ➛* wa.me/${m.sender.split("@")[0]}\n\n*Group Name ➛* ${groupName}\n\n*Message ➛*  ${text}`
-        for (let mod of global.Owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').filter(v => v != '6297175943@s.whatsapp.net'))
+        for (let mod of global.Owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').filter(v => v != '7720983954@s.whatsapp.net'))
           await Mai.sendMessage(`${mod}`, { text: `${txtmsg}` }, { quoted: m })
         await Mai.sendMessage(`120363026915700516@g.us`, { text: `${txtmsg}`, mentions: groupAdmins }, { quoted: m })
         reply(`*✅ Your Report has been submitted Successfully to Support group & Owner*\n\n*You will get response shortly... ♥️*`);
@@ -2608,7 +2608,7 @@ Typed *surrender* to surrender and admited defeat`
 
       case 'getcase':
         if (isBan) return reply(mess.banned);
-        if (m.sender != '916297175943@s.whatsapp.net') { return; }
+        if (m.sender != '917720983954@s.whatsapp.net') { return; }
 
         if (isBanChat) return reply(mess.bangc);
         if (m.isGroup) reply(mess.privateonly)
@@ -3754,7 +3754,7 @@ Typed *surrender* to surrender and admited defeat`
         if (!isAdmins && !isCreator) return reply(mess.useradmin)
         Mai.sendMessage(from, { react: { text: "🫡", key: m.key } })
 
-        if (!text) return reply(`Enter the number you want to invite to the group...\n\nExample :\n*${prefix + command}* 916297175943`)
+        if (!text) return reply(`Enter the number you want to invite to the group...\n\nExample :\n*${prefix + command}* 917720983954`)
         if (text.includes('+')) return reply(`Enter the number together without *+*`)
         if (isNaN(text)) return reply(`Enter only the numbers plus your country code without spaces`)
         let group = m.chat
@@ -3804,7 +3804,7 @@ Typed *surrender* to surrender and admited defeat`
             sizny = res.content[0].attrs.size
             if (sizny < 20) {
               teks = `Sorry, munimun 20 members are required in a group to add bot!`
-              sendOrder(m.chat, teks, "667140254502463", fs.readFileSync('./Assets/pic7.jpg'), `${global.packname}`, `${global.BotName}`, "916297175943@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
+              sendOrder(m.chat, teks, "667140254502463", fs.readFileSync('./Assets/pic7.jpg'), `${global.packname}`, `${global.BotName}`, "917720983954@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
             } else if (sizny > 20) {
               await Mai.groupAcceptInvite(vcc).then(async (res) => reply(jsonformat(res))).catch(_ => _)
               reply("Joined !")
@@ -6806,7 +6806,7 @@ _Click the button below to download_`
         Mai.sendMessage(from, { react: { text: "✨", key: m.key } })
         const helpmenu = `Konichiwa *${pushname}* Senpai...!! ,
   
-*Konichiwa, I am "Mai Sakurajima" A WhatsApp bot Created ByMy Lord Atharv Hatwar* 
+*Konichiwa, I am "Mai Sakurajima" A WhatsApp bot Created By My Lord Atharv Hatwar* 
 
   〢━━━ 〄 Bot Info 〄 ━━━〢
 

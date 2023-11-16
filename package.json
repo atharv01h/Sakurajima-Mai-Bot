@@ -1,7 +1,7 @@
 {
-    "name": "a17",
+    "name": "Mai",
     "version": "1.0.0",
-    "description": "A17 is a WhatsApp multiDevice Bot based on Miku and Baileys written in Javascript.",
+    "description": " WhatsApp multiDevice Bot based on Miku and Baileys written in Javascript.",
     "main": "index.js",
     "directories": {
         "lib": "lib"
@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Kai0071/A17.git"
+        "url": ""
     },
     "keywords": [
         "md-bot"
@@ -20,9 +20,9 @@
     "author": "Kai",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/Kai0071/A17/issues"
+        "url": ""
     },
-    "homepage": "https://github.com/Kai0071/A17#readme",
+    "homepage": "",
     "devDependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
         "@hapi/boom": "^10.0.1",
