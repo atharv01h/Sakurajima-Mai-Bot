@@ -25,8 +25,6 @@ Once the bot is set up, you can interact with it through WhatsApp by sending mes
 
 Feel free to explore and discover more features by experimenting with different commands!
 
-## Screenshots
-Include screenshots or GIFs showcasing the bot in action. You can create a 'screenshots' folder in your repository and link the images here.
 
 ## Contributing
 If you'd like to contribute to the development of the Mai Sakurajima WhatsApp Bot, please follow the guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
