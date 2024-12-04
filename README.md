@@ -1,16 +1,15 @@
 # Mai Sakurajima WhatsApp Bot
 
-![Mai Sakurajima](https://wallpapercave.com/wp/wp4055625.jpg)
 
 ## Introduction
-Welcome to the Mai Sakurajima WhatsApp Bot, a Node.js-based bot created by Atharv Hatwar. This bot is designed to bring a touch of anime flair to your WhatsApp conversations, with features inspired by the character Mai Sakurajima.
+Welcome to the Mai  WhatsApp Bot, a Node.js-based bot created by Atharv Hatwar. This bot is designed to bring a touch of anime flair to your WhatsApp conversations, with features inspired by the character Mai Sakurajima.
 
 ## Features
 - **Anime-themed Responses:** Engage in conversations with Mai Sakurajima-inspired replies and expressions.
 - **Image Sharing:** Share anime images and memes with your friends through the bot.
 
 ## Getting Started
-To add Mai Sakurajima to your WhatsApp contacts, follow these steps:
+To add Mai  to your WhatsApp contacts, follow these steps:
 1. Clone this repository to your local machine.
 2. Install the required Node.js dependencies using `npm install`.
 3. Configure the necessary API keys or credentials (if any).
@@ -35,4 +34,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 If you have any questions,feel free to contact :
-- Atharv Hatwar: [Email](mailto:atharv.hatwar@progrealm.tech), [LinkedIn](https://www.linkedin.com/in/atharv-hatwar-568047194/)
+- Atharv Hatwar: [Email](mailto:atharvhatwar@gmail.com), [LinkedIn](https://www.linkedin.com/in/atharv-hatwar-568047194/)
